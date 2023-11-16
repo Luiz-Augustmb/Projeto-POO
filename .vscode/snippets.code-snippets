@@ -1,0 +1,21 @@
+{
+    "FXML Skeleton": {
+      "prefix": "fxml",
+      "body": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "<?import javafx.scene.control.*?>",
+        "<?import javafx.scene.layout.*?>",
+        "<?import java.lang.*?>",
+        "<?import java.util.*?>",
+        "<?import javafx.scene.*?>",
+        
+        "<AnchorPane prefHeight=""200.0"" prefWidth="200.0">",
+        "  <children>",
+        "        <!-- Your UI components go here -->",
+        "  </children>",
+        "</AnchorPane>",
+      ],
+      "description": "FXML Skeleton"
+    }
+  }
+  

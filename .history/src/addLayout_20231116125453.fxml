@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <StackPane fx:id="contentArea" layoutY="7.0" prefHeight="667.0" prefWidth="679.0" style="-fx-background-color: #EDF1F6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+                     <StackPane.margin>
+                        <Insets bottom="60.0" left="15.0" right="15.0" top="15.0" />
+                     </StackPane.margin>
+                     <children>
+                        <BorderPane layoutX="82.0" layoutY="158.0" prefHeight="330.0" prefWidth="786.0">
+                           <left>
+                              <VBox prefHeight="305.0" prefWidth="180.0" spacing="25.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="180.0" text="Categoria:" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="Arial" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="180.0" text="Marca:" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="Arial" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="180.0" text="Modelo:" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="Arial" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="180.0" text="Preço:" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="Arial" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="180.0" text="Quantidade:" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="Arial" size="25.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </left>
+                           <center>
+                              <VBox prefHeight="330.0" prefWidth="599.0" spacing="22.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ChoiceBox prefHeight="25.0" prefWidth="466.0" />
+                                    <TextArea fx:id="marcaProduto" prefHeight="37.0" prefWidth="450.0" promptText="Marca">
+                                       <font>
+                                          <Font name="Arial" size="20.0" />
+                                       </font>
+                                    </TextArea>
+                                    <TextArea fx:id="modeloProduto" prefHeight="37.0" prefWidth="450.0" promptText="Modelo">
+                                       <font>
+                                          <Font name="Arial" size="20.0" />
+                                       </font>
+                                    </TextArea>
+                                    <TextArea fx:id="precoProduto" editable="false" prefHeight="37.0" prefWidth="450.0" promptText="R$00,00">
+                                       <font>
+                                          <Font name="Arial" size="20.0" />
+                                       </font>
+                                    </TextArea>
+                                    <TextArea fx:id="qtdProduto" prefHeight="37.0" prefWidth="450.0" promptText="Quantidade em estoque">
+                                       <font>
+                                          <Font name="Arial" size="20.0" />
+                                       </font>
+                                    </TextArea>
+                                 </children>
+                                 <BorderPane.margin>
+                                    <Insets left="10.0" />
+                                 </BorderPane.margin>
+                              </VBox>
+                           </center>
+                        </BorderPane>
+                        <Button layoutX="700.0" layoutY="521.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="186.0" style="-fx-border-radius: 0;" text="Adicionar">
+                           <font>
+                              <Font name="Arial" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children></StackPane>
+         </children>
+      </AnchorPane>
