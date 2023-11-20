@@ -1,0 +1,54 @@
+--- Produto ---
+Notebook
+Acer
+Aspire 3
+2530.0
+6
+--- Produto ---
+Smartphone
+Iphone
+13 Pro Max
+15000.0
+4
+--- Produto ---
+Smartphone
+Motorola
+Moto One
+1350.0
+5
+--- Produto ---
+Notebook
+Apple
+MackBook Proo
+8500.0
+5
+--- Produto ---
+Acessórios
+Razer
+Teclado Gamer G8
+150.0
+15
+--- Produto ---
+Acessórios
+Apple
+Carregador Original Type C
+20.0
+50
+--- Produto ---
+Smartphone
+Samsumg
+Galaxy S20
+7850.0
+6
+--- Produto ---
+Periféricos
+Razer
+Teclado Gamer Eliptical
+1500.0
+4
+--- Produto ---
+Acessórios
+Apple
+Air Pods
+7500.0
+12

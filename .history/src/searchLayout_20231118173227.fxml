@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchController">
+   <children>
+         <StackPane layoutY="7.0" prefHeight="667.0" prefWidth="679.0" style="-fx-background-color: #EDF1F6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+               <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+                  <children>
+                     <Text layoutX="233.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Controle de estoque">
+                        <font>
+                           <Font size="50.0" />
+                        </font>
+                     </Text>
+                     <Label layoutX="19.0" layoutY="99.0" text="Categoria:">
+                        <font>
+                           <Font name="Arial" size="25.0" />
+                        </font>
+                     </Label>
+                     <TableView layoutX="19.0" layoutY="145.0" prefHeight="439.0" prefWidth="880.0">
+                       <columns>
+                         <TableColumn minWidth="200.0" prefWidth="75.0" text="Categoria" />
+                         <TableColumn minWidth="200.0" prefWidth="75.0" text="Marca" />
+                           <TableColumn minWidth="200.0" prefWidth="75.0" text="Modelo" />
+                           <TableColumn minWidth="150.0" prefWidth="75.0" text="Preço" />
+                           <TableColumn minWidth="150.0" prefWidth="75.0" text="Quantidade" />
+                       </columns>
+                     </TableView>
+                  </children>
+               </Pane>
+            </children></StackPane>
+      </children>
+   </AnchorPane>
