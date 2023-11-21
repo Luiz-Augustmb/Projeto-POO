@@ -1,66 +1,138 @@
 --- Produto ---
-Notebook
-Acer
-Aspire 3
-2530.0
-6
---- Produto ---
 Smartphone
-Iphone
-13 Pro Max
-15000.0
-4
+Apple
+Iphone 13 Prox Máx
+7350.0
+10
 --- Produto ---
 Smartphone
 Motorola
 Moto One
 1350.0
+10
+--- Produto ---
+Smartphone
+Samsung
+Galaxy S20
+3550.0
+10
+--- Produto ---
+Smartphone
+Motorola
+Moto G8
+4350.0
+10
+--- Produto ---
+Smartphone
+Samsung
+Galaxy A20
+2470.0
+10
+--- Produto ---
+Notebook
+Apple
+Macbook Pro
+7600.0
 5
 --- Produto ---
 Notebook
 Apple
-MackBook Proo
-8500.0
-5
+MacBook Air 
+5390.0
+10
 --- Produto ---
-Acessórios
-Razer
-Teclado Gamer G8
-150.0
+Notebook
+Acer
+Aspire 3
+1300.0
 15
 --- Produto ---
-Acessórios
-Apple
-Carregador Original Type C
-20.0
-50
+Notebook
+Dell
+Inspiron 15
+2800.0
+15
 --- Produto ---
-Smartphone
-Samsumg
-Galaxy S20
-7850.0
-6
+Notebook
+Dell
+Vostro 3520
+2898.0
+10
 --- Produto ---
-Periféricos
-Razer
-Teclado Gamer Eliptical
-1500.0
-4
+Notebook
+Lenovo
+Ideapad 3i
+1799.0
+5
 --- Produto ---
-Acessórios
-Apple
-Air Pods
-7500.0
-12
+Tablet
+Samsung
+Galaxy A7 Lite
+979.0
+10
 --- Produto ---
 Tablet
 Apple
-Ipad Pro
-6500.0
-6
+Ipad Air
+9531.0
+5
+--- Produto ---
+Tablet
+Samsung
+Galaxy Tab S6 Lite
+1499.0
+13
+--- Produto ---
+Acessórios
+Apple
+AirPod 3
+530.0
+20
+--- Produto ---
+Acessórios
+Haylou
+Fone Bluetooth GT5
+120.0
+14
+--- Produto ---
+Acessórios
+Apple
+Carregador Type C
+25.0
+20
+--- Produto ---
+Acessórios
+Motorola
+Carregador SuperCharge
+30.0
+18
 --- Produto ---
 Periféricos
-Multilaser
-Teclado s23
-30.0
-20
+Razer
+Mouse Deathadder Essential
+153.0
+23
+--- Produto ---
+Periféricos
+Logitech
+Mouse Gamer Sem fio G305
+269.0
+17
+--- Produto ---
+Periféricos
+Logitech
+Headset sem fio  G435
+365.0
+7
+--- Produto ---
+Periféricos
+Samsung
+Monitor Odyssey 
+996.0
+4
+--- Produto ---
+Notebook
+Lenovo
+IdeaPad i5
+4325.0
+4

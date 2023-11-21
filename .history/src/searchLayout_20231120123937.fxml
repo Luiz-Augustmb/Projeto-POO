@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchController">
+   <children>
+      <StackPane layoutY="7.0" prefHeight="667.0" prefWidth="679.0" style="-fx-background-color: #EDF1F6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+               <StackPane.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </StackPane.margin>
+               <children>
+                  <Text layoutX="233.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Controle de estoque">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="19.0" layoutY="99.0" text="Categoria:">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="tabelaProdutos" layoutX="19.0" layoutY="145.0" prefHeight="470.0" prefWidth="880.0">
+                    <columns>
+                      <TableColumn fx:id="colunaCategoria" minWidth="180.0" prefWidth="75.0" text="Categoria" />
+                      <TableColumn fx:id="colunaMarca" minWidth="200.0" prefWidth="75.0" text="Marca" />
+                        <TableColumn fx:id="colunaModelo" minWidth="250.0" prefWidth="75.0" text="Modelo" />
+                        <TableColumn fx:id="colunaPreco" minWidth="150.0" prefWidth="75.0" text="Preço" />
+                        <TableColumn fx:id="colunaQuantidade" minWidth="103.0" prefWidth="75.0" text="Quantidade" />
+                    </columns>
+                  </TableView>
+                  <ChoiceBox fx:id="choiceBoxCategoria" layoutX="150.0" layoutY="103.0" prefHeight="25.0" prefWidth="200.0" />
+               </children>
+            </Pane>
+         </children></StackPane>
+   </children>
+</AnchorPane>

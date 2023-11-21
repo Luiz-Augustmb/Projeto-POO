@@ -1,0 +1,180 @@
+--- Produto ---
+Smartphone
+Apple
+Iphone 13 Prox Máx
+7350.0
+10
+--- Produto ---
+Smartphone
+Motorola
+Moto One
+1350.0
+10
+--- Produto ---
+Smartphone
+Samsung
+Galaxy S20
+3550.0
+10
+--- Produto ---
+Smartphone
+Motorola
+Moto G8
+4350.0
+10
+--- Produto ---
+Smartphone
+Samsung
+Galaxy A20
+2470.0
+10
+--- Produto ---
+Notebook
+Apple
+Macbook Pro
+7600.0
+5
+--- Produto ---
+Notebook
+Apple
+MacBook Air 
+5390.0
+10
+--- Produto ---
+Notebook
+Acer
+Aspire 3
+1300.0
+15
+--- Produto ---
+Notebook
+Dell
+Inspiron 15
+2800.0
+15
+--- Produto ---
+Notebook
+Dell
+Vostro 3520
+2898.0
+10
+--- Produto ---
+Notebook
+Lenovo
+Ideapad 3i
+1799.0
+20
+--- Produto ---
+Tablet
+Samsung
+Galaxy A7 Lite
+979.0
+10
+--- Produto ---
+Tablet
+Apple
+Ipad Air
+9531.0
+5
+--- Produto ---
+Tablet
+Samsung
+Galaxy Tab S6 Lite
+1499.0
+13
+--- Produto ---
+Acessórios
+Apple
+AirPod 3
+530.0
+20
+--- Produto ---
+Acessórios
+Haylou
+Fone Bluetooth GT5
+120.0
+14
+--- Produto ---
+Acessórios
+Apple
+Carregador Type C
+25.0
+20
+--- Produto ---
+Acessórios
+Motorola
+Carregador SuperCharge
+30.0
+18
+--- Produto ---
+Periféricos
+Razer
+Mouse Deathadder Essential
+153.0
+23
+--- Produto ---
+Periféricos
+Logitech
+Mouse Gamer Sem fio G305
+269.0
+17
+--- Produto ---
+Periféricos
+Logitech
+Headset sem fio  G435
+365.0
+7
+--- Produto ---
+Periféricos
+Samsung
+Monitor Odyssey 
+996.0
+4
+--- Produto ---
+Notebook
+testes
+tes
+4325.0
+23
+--- Produto ---
+Periféricos
+fjhd
+jfsd
+165.0
+2123
+--- Produto ---
+Notebook
+bjgfd
+gad
+3223.0
+23
+--- Produto ---
+Notebook
+jfk
+fasd
+432.0
+432
+--- Produto ---
+Notebook
+fadf
+fas32
+32.0
+54
+--- Produto ---
+Notebook
+jnm
+NKN
+90.0
+77
+--- Produto ---
+Tablet
+knfakdsnf
+fkdasnfaks
+123.0
+156
+--- Produto ---
+Tablet
+fns
+kfnka
+4983.0
+9832

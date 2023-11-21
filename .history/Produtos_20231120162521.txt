@@ -1,0 +1,124 @@
+--- Produto ---
+Smartphone
+Apple
+Iphone 13 Pro Max
+7350.0
+12
+--- Produto ---
+Smartphone
+Motorola
+Moto One
+1350.0
+10
+--- Produto ---
+3
+Smartphone
+Samsung
+Galaxy S20
+3550.0
+15
+--- Produto ---
+4
+Smartphone
+Motorola
+Moto G8
+4350.0
+10
+--- Produto ---
+5
+Smartphone
+Samsung
+Galaxy A20
+2470.0
+10
+--- Produto ---
+6
+Notebook
+Apple
+Macbook Pro
+7600.0
+2
+--- Produto ---
+7
+Notebook
+Apple
+Macbook Air
+5390.0
+10
+--- Produto ---
+8
+Notebook
+Acer
+Aspire 3
+1300.0
+15
+--- Produto ---
+9
+Notebook
+Dell
+Inspirion 15
+2800.0
+15
+--- Produto ---
+10
+Notebook
+Lenovo
+Ideapad 3i
+1799.0
+14
+--- Produto ---
+11
+Notebook
+Dell
+Vostro 3520
+1898.0
+12
+--- Produto ---
+12
+Tablet
+Samsung
+Galaxy A7 Lite
+979.0
+15
+--- Produto ---
+1
+Tablet
+Apple
+Ipad Air
+9531.0
+5
+--- Produto ---
+1
+Smartphone
+teste
+tes
+23.0
+322
+--- Produto ---
+2
+Acessórios
+fhdskj
+fjkds4
+78.0
+67
+--- Produto ---
+1
+Notebook
+jfk
+fhs
+78.0
+65
+--- Produto ---
+2
+Notebook
+jfkd
+jkbfdsj
+767.0
+989
+--- Produto ---
+1
+Notebook
+nkgjfd
+hfsdjf
+97.0
+57

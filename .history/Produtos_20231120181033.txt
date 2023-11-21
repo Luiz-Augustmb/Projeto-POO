@@ -1,0 +1,13 @@
+--- Produto ---
+Smartphone
+Apple
+Iphone 13 Pro Max
+7350.0
+12
+--- Produto ---
+Smartphone
+Motorola
+Moto One
+1350.0
+10
+
