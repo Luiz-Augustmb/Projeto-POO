@@ -1,0 +1,36 @@
+/* Estilos da página de Login */
+
+#loginButton:hover{
+    -fx-background-color: #f4f4f4;
+}
+
+/* Estilos da página index */
+
+#home {
+    -fx-effect: dropshadow(three-pass-box, derive(black, -20%), 10, 0, 0, 0);
+}
+
+#home:hover {
+    -fx-effect: dropshadow(three-pass-box, blue, 10, 0, 0, 0);
+}
+
+#search:hover {
+    /* Seu estilo de hover para a imagem search */
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+#add:hover {
+    /* Seu estilo de hover para a imagem add */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+
+#remove:hover {
+    /* Seu estilo de hover para a imagem remove */
+    -fx-opacity: 0.7;
+}
+
+#user:hover {
+    /* Seu estilo de hover para a imagem user */
+    -fx-opacity: 0.7;
+}

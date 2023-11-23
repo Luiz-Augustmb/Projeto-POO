@@ -1,0 +1,36 @@
+/* Estilos da página de Login */
+
+#loginButton{
+    -fx-background-color: #FFFFFF;
+}
+
+#loginButton:hover{
+    -fx-background-color: #dfdfdf;
+}
+
+/* Estilos da página index */
+
+#home:hover {
+    -fx-opacity: 0.7;
+}
+
+#search:hover {
+    -fx-opacity: 0.7;
+}
+
+#add:hover {
+    -fx-opacity: 0.7;
+}
+
+#remove:hover {
+    -fx-opacity: 0.7;
+}
+
+#user:hover {
+    -fx-opacity: 0.7;
+}
+
+#navBar{
+    -fx-boarder-color: black;
+}
+

@@ -1,12 +1,8 @@
 --- Usuário ---
+Dono da loja
+admin
+admin
+--- Usuário ---
 Luiz Augusto
-admin
-admin
---- Usuário ---
-Guto
-gutinho
 guto
---- Usuário ---
-Ana
-ana
-ana321
+senhaGuto132

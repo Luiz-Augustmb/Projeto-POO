@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="screen" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1000.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IndexController">
+   <left>
+      <Pane fx:id="navBar" prefHeight="368.0" prefWidth="50.0" style="-fx-background-color: #c2e6ff;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="vBox" layoutY="11.0" prefHeight="357.0" prefWidth="45.0" spacing="15.0">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+               <children>
+                  <ImageView fx:id="home" fitHeight="25.0" fitWidth="25.0" onMouseClicked="#goToHomePage" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/home.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="12.0" right="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fx:id="search" fitHeight="25.0" fitWidth="25.0" onMouseClicked="#goToSearchPage" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/paper.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="12.0" right="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fx:id="add" fitHeight="25.0" fitWidth="25.0" onMouseClicked="#goToAddPage" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/addProduct.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="12.0" right="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fx:id="user" fitHeight="25.0" fitWidth="25.0" onMouseClicked="#goToUsersPage" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/user.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="12.0" right="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <StackPane fx:id="contentArea" layoutY="7.0" prefHeight="667.0" prefWidth="679.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

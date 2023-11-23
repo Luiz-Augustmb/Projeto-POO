@@ -1,0 +1,46 @@
+/* Estilos da página de Login */
+
+#loginButton{
+    -fx-background-color: #FFFFFF;
+}
+
+#loginButton:hover{
+    -fx-background-color: #dfdfdf;
+}
+
+/* Estilos da página index */
+
+#home:hover {
+    -fx-opacity: 0.7;
+}
+
+#search:hover {
+    -fx-opacity: 0.7;
+}
+
+#add:hover {
+    -fx-opacity: 0.7;
+}
+
+#remove:hover {
+    -fx-opacity: 0.7;
+}
+
+#user:hover {
+    -fx-opacity: 0.7;
+}
+
+/* Estilos da página UsersController */
+
+.acoes-cell {
+    -fx-alignment: CENTER;
+}
+
+.acoes-button {
+    -fx-background-color: #4CAF50; /* Cor de fundo verde */
+    -fx-text-fill: white; /* Cor do texto branco */
+}
+
+.acoes-button:hover {
+    -fx-background-color: #45a049; /* Cor de fundo verde mais escura no hover */
+}

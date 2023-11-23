@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #79DEDF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController">
+   <children>
+      <StackPane fx:id="contentArea" layoutY="7.0" prefHeight="667.0" prefWidth="679.0" style="-fx-background-color: #EDF1F6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="640.0" prefWidth="920.0" style="-fx-background-color: #FFFFFF;">
+               <StackPane.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </StackPane.margin>
+               <children>
+                  <Label alignment="CENTER" layoutX="-2.0" layoutY="48.0" prefHeight="58.0" prefWidth="921.0" text="SMARTSTOCK CONTROLL">
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="estoqueButton" layoutX="132.0" layoutY="210.0" mnemonicParsing="false" onAction="#goToEstoque" prefWidth="212.0" text="Estoque">
+                     <font>
+                        <Font name="Arial" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="addProdutoButton" layoutX="266.0" layoutY="339.0" mnemonicParsing="false" onAction="#goToAddProduto" text="Adicionar produto">
+                     <font>
+                        <Font name="Arial" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="usuariosButton" layoutX="560.0" layoutY="210.0" mnemonicParsing="false" onAction="#goToUsers" prefWidth="212.0" text="Usuários">
+                     <font>
+                        <Font name="Arial" size="40.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children></StackPane>
+   </children>
+</Pane>

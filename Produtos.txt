@@ -21,13 +21,13 @@ Smartphone
 Motorola
 Moto G8
 4350.0
-10
+2
 --- Produto ---
 Smartphone
 Samsung
 Galaxy A20
 2470.0
-10
+5
 --- Produto ---
 Notebook
 Apple
@@ -39,7 +39,7 @@ Notebook
 Apple
 MacBook Air 
 5390.0
-10
+3
 --- Produto ---
 Notebook
 Acer
@@ -57,7 +57,7 @@ Notebook
 Dell
 Vostro 3520
 2898.0
-10
+19
 --- Produto ---
 Notebook
 Lenovo
@@ -130,55 +130,3 @@ Samsung
 Monitor Odyssey 
 996.0
 4
---- Produto ---
-Notebook
-testes
-tes
-4325.0
-23
---- Produto ---
-Periféricos
-fjhd
-jfsd
-165.0
-2123
---- Produto ---
-Notebook
-bjgfd
-gad
-3223.0
-23
---- Produto ---
-Notebook
-jfk
-fasd
-432.0
-432
---- Produto ---
-Notebook
-fadf
-fas32
-32.0
-54
---- Produto ---
-Notebook
-jnm
-NKN
-90.0
-77
---- Produto ---
-Tablet
-knfakdsnf
-fkdasnfaks
-123.0
-156
---- Produto ---
-Tablet
-fns
-kfnka
-4983.0
-9832
-
-
-
-

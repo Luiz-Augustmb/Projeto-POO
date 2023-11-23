@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RemoveController">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #b9e1fd;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="465.0" prefWidth="460.0" style="-fx-background-color: #e0f2ff;">
+               <StackPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </StackPane.margin>
+               <children>
+                  <Text layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalhes do Produto" textAlignment="CENTER" wrappingWidth="470.0">
+                     <font>
+                        <Font name="Arial" size="45.0" />
+                     </font>
+                  </Text>
+                  <VBox layoutX="6.0" layoutY="133.0" prefHeight="235.0" prefWidth="169.0" spacing="6.0">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="167.0" text="Categoria:">
+                           <font>
+                              <Font name="Arial" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="45.0" prefWidth="184.0" text="Marca:">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="176.0" text="Modelo:">
+                           <font>
+                              <Font name="Arial" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="207.0" text="Preço:">
+                           <font>
+                              <Font name="Arial" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="36.0" prefWidth="193.0" text="Quantidade:">
+                           <font>
+                              <Font name="Arial" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Button fx:id="atualizarButton" layoutX="40.0" layoutY="379.0" mnemonicParsing="false" onAction="#atualizarProduto" prefHeight="65.0" prefWidth="170.0" style="-fx-background-radius: 0;" text="Atualizar">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="removerButton" layoutX="250.0" layoutY="379.0" mnemonicParsing="false" onAction="#removerProduto" prefHeight="65.0" prefWidth="170.0" style="-fx-background-radius: 0;" text="Remover">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Button>
+                  <VBox layoutX="181.0" layoutY="133.0" prefHeight="235.0" prefWidth="266.0" spacing="16.0">
+                     <children>
+                        <TextField fx:id="textFildCategoria" minHeight="-Infinity" prefHeight="30.0" promptText="Categoria">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="textFieldMarca" minHeight="-Infinity" prefHeight="30.0" promptText="Marca">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="textFieldModelo" minHeight="-Infinity" prefHeight="30.0" promptText="Modelo">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="textFieldPreco" minHeight="-Infinity" prefHeight="30.0" promptText="Preço">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="textFieldQuantidade" minHeight="-Infinity" prefHeight="30.0" promptText="Quantidade">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
